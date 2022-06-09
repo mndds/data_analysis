@@ -1,1 +1,1 @@
-web: gunicorn predict.wsgi --log-file -
+web: gunicorn heart_attack_analysis.wsgi --log-file -
